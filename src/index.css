@@ -1,0 +1,97 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  font-size: 10px;
+}
+
+
+
+h1{
+  font-size: 3rem;  
+  color:#fff;   
+}
+
+h2{
+  font-size: 2rem;
+}
+
+.mein-header{
+  background-color:yellowgreen;
+  padding: 20px;
+}
+
+.Movie-section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:20px;
+
+}
+
+.movie-header{
+  color: #fff;
+  background-color:#000;
+  width: 22%;  
+  margin-bottom: 20px;
+  padding-bottom: 25px; 
+  font-weight: bold;
+}
+
+.movie-header .imdb_Id{
+  background-color:yellow;
+  color: #000;
+  max-width: 120px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.movie-header img{
+  width:100%;
+
+  padding-bottom: 25px;
+}
+.movie-header p{
+  font-size: 2rem;
+}
+
+@media (max-width:767px){
+  .movie-header{
+    width: 32%;
+  }
+}
+
+
+@media (max-width:575px){
+  .movie-header{
+    width:48.5%;
+  }
+}
+
+@media (max-width:467px){
+  .movie-header{
+    width:100%;
+  }
+}
